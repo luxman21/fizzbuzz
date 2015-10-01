@@ -1,0 +1,3 @@
+build:
+  - mcs src/*.cs -reference:nunit.framework.dll -target:library -out:target/fizzbuzz.dll
+test: nunit-console target/fizzbuzz.dll

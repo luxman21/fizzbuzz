@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="/home/suke/Documents/codecheck/fizzbuzz/target/fizzbuzz.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-10-01" time="12:39:55">
+  <environment nunit-version="2.6.3.0" clr-version="4.0.30319.17020" os-version="Unix 3.19.0.28" platform="Unix" cwd="/home/suke/Documents/codecheck/fizzbuzz" machine-name="fanLinux" user="suke" user-domain="fanLinux" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="/home/suke/Documents/codecheck/fizzbuzz/target/fizzbuzz.dll" executed="True" result="Success" success="True" time="0.023" asserts="0">
+    <results>
+      <test-suite type="TestFixture" name="FizzBuzzTest" executed="True" result="Success" success="True" time="0.017" asserts="0">
+        <results>
+          <test-case name="FizzBuzzTest.IsFizzBuzzTest" executed="True" result="Success" success="True" time="0.013" asserts="47" />
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,11 @@
+{
+  "editable": [
+    "q3.md",
+    "src/fizzbuzz.cs"
+  ],
+  "excludes": [
+    ".gitignore",
+    "challenge.json"
+  ],
+  "test": "nunit-console target/fizzbuzz.dll"
+}
