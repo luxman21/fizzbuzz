@@ -1,0 +1,13 @@
+{
+  "editable": [
+    "q3.md",
+    "app/*"
+  ],
+  "excludes": [
+    ".gitignore",
+    "challenge.json",
+    "codecheck.yml",
+    "test2.*"
+  ],
+  "test": "mocha"
+}
