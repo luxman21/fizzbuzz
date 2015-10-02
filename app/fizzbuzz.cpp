@@ -3,35 +3,32 @@
 #include <math.h>
 #include <string.h>
 #include <iostream>
+#include <sstream>
 using namespace std;
 
-//BEGIN_CHALLENGE
-struct data {
-  int number;
-  string fizzbuzz;
-};
-//END_CHALLENGE
-
-void isFizzbuzz(int n) {
+string fizzbuzz(int n) {
   //ここに素数判定プログラムを実装してください。
   //BEGIN_CHALLENGE
 
-  data s[n+1];
-  if (n % 15 == 0)      { s[n].fizzbuzz = "FizzBuzz"; printf("%s\n", s[n].fizzbuzz.c_str() );}
-  else if (n % 5 == 0)  { s[n].fizzbuzz = "Buzz"; printf("%s\n", s[n].fizzbuzz.c_str() );}
-  else if (n % 3 == 0)  { s[n].fizzbuzz = "Fizz"; printf("%s\n", s[n].fizzbuzz.c_str() );}
-  else                  { s[n].number = n; printf("%d\n", s[n].number );}
+  string data;
+  ostringstream oss;
+  if (n % 15 == 0)      { data = "FizzBuzz"; }
+  else if (n % 5 == 0)  { data = "Buzz"; }
+  else if (n % 3 == 0)  { data = "Fizz"; }
+  else                  { oss<< n; data = oss.str() ; }
 
+  return data;
   //END_CHALLENGE
 }
 
 int main(int argc, char *argv[])
 {
+
   int arg1 = atoi(argv[1]);
   if (argc != 2) {
     printf("usage: ./a.out <number>\n");
     return 1;
   }
-  isFizzbuzz(arg1);
+  cout << fizzbuzz(arg1);
   return 0;
 }
