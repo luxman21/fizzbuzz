@@ -9,7 +9,7 @@ fizzBuzzTest();
 sub fizzBuzzTest {
 
   for my $i (1..100) {
-    if ($i % 3 == 0 && $i % 5 == 0) {
+    if ($i % 15 == 0) {
 	  ok app::Fizzbuzz::fizzbuzz($i) eq "FizzBuzz";
     } elsif ($i % 5 == 0) {
 	  ok app::Fizzbuzz::fizzbuzz($i) eq "Buzz";
