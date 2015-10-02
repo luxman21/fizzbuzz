@@ -1,7 +1,6 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <string.h>
+#include <string>
 #include <iostream>
 #include <sstream>
 using namespace std;
@@ -26,7 +25,7 @@ int main(int argc, char *argv[])
 
   int arg1 = atoi(argv[1]);
   if (argc != 2) {
-    printf("usage: ./a.out <number>\n");
+    cout << "usage: ./a.out <number>\n";
     return 1;
   }
   cout << fizzbuzz(arg1);
