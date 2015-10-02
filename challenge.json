@@ -5,8 +5,7 @@
   "excludes": [
     ".gitignore",
     "challenge.json",
-    "codecheck.yml",
-    "test2.*"
+    "codecheck.yml"
   ],
   "test": "mocha"
 }
