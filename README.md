@@ -1,6 +1,6 @@
 # fizzbuzz Perl
 
-Write a program for fizzbuzz upto 100 in [Fizzbuzz.pm](app/Fizzbuzz.pm).
+Write a program for fizzbuzz [Fizzbuzz.pm](app/Fizzbuzz.pm).
 
 Given argument is to determine function fizzbuzz whether it is "Fizz" or "Buzz" or "FizzBuzz" or number (app/Fizzbuzz.pm).
 Return value: "Fizz" or "Buzz" or "FizzBuzz" or number.
