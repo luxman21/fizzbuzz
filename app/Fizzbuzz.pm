@@ -11,13 +11,13 @@ sub fizzbuzz {
   my @result;
 
   if ($ithfizzbuzz % 15 == 0) {
-	$result[$ithfizzbuzz] = "FizzBuzz";
+	  $result[$ithfizzbuzz] = "FizzBuzz";
   } elsif ($ithfizzbuzz % 5 == 0) {
-	$result[$ithfizzbuzz] = "Buzz";
+    $result[$ithfizzbuzz] = "Buzz";
   } elsif ($ithfizzbuzz % 3 == 0) {
-	$result[$ithfizzbuzz] = "Fizz";
+	  $result[$ithfizzbuzz] = "Fizz";
   } else {
-	$result[$ithfizzbuzz] = $ithfizzbuzz;
+	  $result[$ithfizzbuzz] = $ithfizzbuzz;
   }
  
   return $result[$ithfizzbuzz];

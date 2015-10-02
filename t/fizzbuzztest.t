@@ -10,13 +10,13 @@ sub fizzBuzzTest {
 
   for my $i (1..100) {
     if ($i % 15 == 0) {
-	  ok app::Fizzbuzz::fizzbuzz($i) eq "FizzBuzz";
+	    ok app::Fizzbuzz::fizzbuzz($i) eq "FizzBuzz";
     } elsif ($i % 5 == 0) {
-	  ok app::Fizzbuzz::fizzbuzz($i) eq "Buzz";
+	    ok app::Fizzbuzz::fizzbuzz($i) eq "Buzz";
     } elsif ($i % 3 == 0) {
-	  ok app::Fizzbuzz::fizzbuzz($i) eq "Fizz";
+	    ok app::Fizzbuzz::fizzbuzz($i) eq "Fizz";
     } else {
-	  ok app::Fizzbuzz::fizzbuzz($i) eq $i;
+	    ok app::Fizzbuzz::fizzbuzz($i) eq $i;
     }
   }
 
