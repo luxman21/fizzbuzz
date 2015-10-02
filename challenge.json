@@ -1,6 +1,5 @@
 {
   "editable": [
-    "q3.md",
     "src/fizzbuzz.cs"
   ],
   "excludes": [
