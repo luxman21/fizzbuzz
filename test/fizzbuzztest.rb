@@ -7,7 +7,7 @@ expected = []
 	elsif (i % 5 == 0)
 		expected.push("Buzz")
 	elsif (i % 3 == 0)
-	 	expected.push("Fizz")
+		expected.push("Fizz")
 	else expected.push(i) 	
 	end
 end		
@@ -15,8 +15,8 @@ end
 describe "fizzbuzz" do
 	
 	it "1 to 100" do
-    100.times do |i|
-    	expect(fizzbuzz(i)).to eq(expected[i])
-  	end
-  end	
+		100.times do |i|
+			expect(fizzbuzz(i)).to eq(expected[i])
+		end
+	end	
 end

@@ -1,11 +1,11 @@
 {
-  "editable": [
-      "app/fizzbuzz.rb"
-  ],
-  "excludes": [
-      ".gitignore",
-      "challenge.json",
-      "fizzbuzztest.rb"
-  ],
-  "test": "rspec -P test/*"
+	"editable": [
+		"app/fizzbuzz.rb"
+	],
+	"excludes": [
+		".gitignore",
+		"challenge.json",
+		"fizzbuzztest.rb"
+	],
+	"test": "rspec -P test/*"
 }
