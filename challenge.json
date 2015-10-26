@@ -1,11 +1,11 @@
 {
-    "editable": [
-        "app.js"
-    ],
-    "excludes": [
-        ".gitignore",
-        "challenge.json",
-        "fizzbuzztest.js"
-    ],
-    "test": "mocha"
+  "editable": [
+      "app.js"
+  ],
+  "excludes": [
+      ".gitignore",
+      "challenge.json",
+      "fizzbuzztest.js"
+  ],
+  "test": "mocha"
 }
