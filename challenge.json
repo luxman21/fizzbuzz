@@ -1,0 +1,11 @@
+{
+  "editable": [
+    "app/*"
+  ],
+  "excludes": [
+    ".gitignore",
+    "challenge.json",
+    "fizzbuzztest.py"
+  ],
+  "test": "nosetests"
+}
