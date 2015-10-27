@@ -7,13 +7,13 @@ def fizzbuzz(n):
 
   result = ""
   if(n % 15 == 0):
-      result = "FizzBuzz"
+    result = "FizzBuzz"
   elif(n % 5 == 0):
-      result = "Buzz"
+    result = "Buzz"
   elif(n % 3 == 0):
-      result = "Fizz" 
+    result = "Fizz" 
   else: 
-      result = str(n)
+    result = str(n)
     
   return result
 
