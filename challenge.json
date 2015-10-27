@@ -5,7 +5,7 @@
   "excludes": [
     ".gitignore",
     "challenge.json",
-    "fizzbuzztest.py"
+    "testfizzbuzz.py"
   ],
   "test": "nosetests"
 }
