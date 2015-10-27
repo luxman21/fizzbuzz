@@ -1,0 +1,12 @@
+{
+  "editable": [
+    "src/main/java/*"
+  ],
+  "excludes": [
+    ".gitignore",
+    "challenge.json",
+    "fizzbuzztest.*"
+  ],
+  "main": "src/main/java/FizzBuzz.java",
+  "test": "mvn test"
+}
