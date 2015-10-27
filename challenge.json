@@ -1,0 +1,11 @@
+{
+  "editable": [
+    "src/fizzbuzz/fizzbuzz.go"
+  ],
+  "excludes": [
+    ".gitignore",
+    "challenge.json",
+    "fizzbuzz_test.go"
+  ],
+  "test": "go test -v fizzbuzz"
+}
