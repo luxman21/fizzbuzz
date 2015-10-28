@@ -27,8 +27,3 @@ If the number is
     <td>FizzBuzz</td>
   </tr>
 </table>
-
-Source Code: [fizzbuzz.cpp](app/fizzbuzz.cpp).
-
-Test: [fizzbuzztest.js](test/fizzbuzztest.js)
-
