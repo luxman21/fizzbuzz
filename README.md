@@ -6,7 +6,7 @@ FizzBuzz Logic,
 If the number is
 - Divisible by ` 3 `  replace it with ` "Fizz" `
 - Divisible by ` 5 `  replace it with ` "Buzz" `
-- Divisible by ` 15 ` replace it with ` "FizzBuzz" `
+- Divisible by ` 3 and 5 ` replace it with ` "FizzBuzz" `
 - Not Divisible by ` 3, 5 or 15 ` do not change
 
 ### Example
