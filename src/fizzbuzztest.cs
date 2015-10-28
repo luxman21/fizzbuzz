@@ -5,18 +5,17 @@ using System;
 public class FizzBuzzTest {
 
   [Test]
-  public void fizzbuzzTest() {
+  public void FizzBuzzTest() {
     
-  	for(int i = 1; i <= 100; i++) {
-  		if(i%15 == 0) 
-        	Assert.AreEqual("FizzBuzz", FizzBuzz.fizzbuzz(i));
-     		else if (i%5 == 0) 
-        	Assert.AreEqual("Buzz", FizzBuzz.fizzbuzz(i));
-      	else if(i%3 == 0) 
-        	Assert.AreEqual("Fizz", FizzBuzz.fizzbuzz(i));
-        else 
-          Assert.AreEqual(i, FizzBuzz.fizzbuzz(i));
+    for(int i = 1; i <= 100; i++) {
+      if(i%15 == 0) 
+        Assert.AreEqual("FizzBuzz", FizzBuzz.FizzBuzz(i));
+      else if (i%5 == 0) 
+        Assert.AreEqual("Buzz", FizzBuzz.FizzBuzz(i));
+      else if(i%3 == 0) 
+        Assert.AreEqual("Fizz", FizzBuzz.FizzBuzz(i));
+      else 
+        Assert.AreEqual(i.ToString(), FizzBuzz.FizzBuzz(i));
     }
-	}
-
+  }
 }

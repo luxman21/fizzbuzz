@@ -1,10 +1,11 @@
 {
   "editable": [
-    "src/fizzbuzz.cs"
+    "src/FizzBuzz.cs"
   ],
   "excludes": [
     ".gitignore",
-    "challenge.json"
+    "challenge.json",
+    "TestResult.xml"
   ],
-  "test": "nunit-console target/fizzbuzz.dll"
+  "test": "nunit-console target/FizzBuzz.dll"
 }

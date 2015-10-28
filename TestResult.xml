@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="/home/suke/Documents/codecheck/fizzbuzz/target/fizzbuzz.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-10-02" time="16:10:49">
-  <environment nunit-version="2.6.3.0" clr-version="4.0.30319.17020" os-version="Unix 3.19.0.30" platform="Unix" cwd="/home/suke/Documents/codecheck/fizzbuzz" machine-name="fanLinux" user="suke" user-domain="fanLinux" />
+<test-results name="/home/suke/Documents/codecheck/FizzBuzz/target/FizzBuzz.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-10-02" time="16:10:49">
+  <environment nunit-version="2.6.3.0" clr-version="4.0.30319.17020" os-version="Unix 3.19.0.30" platform="Unix" cwd="/home/suke/Documents/codecheck/FizzBuzz" machine-name="fanLinux" user="suke" user-domain="fanLinux" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="/home/suke/Documents/codecheck/fizzbuzz/target/fizzbuzz.dll" executed="True" result="Success" success="True" time="0.022" asserts="0">
+  <test-suite type="Assembly" name="/home/suke/Documents/codecheck/FizzBuzz/target/FizzBuzz.dll" executed="True" result="Success" success="True" time="0.022" asserts="0">
     <results>
       <test-suite type="TestFixture" name="FizzBuzzTest" executed="True" result="Success" success="True" time="0.016" asserts="0">
         <results>
-          <test-case name="FizzBuzzTest.fizzbuzzTest" executed="True" result="Success" success="True" time="0.012" asserts="100" />
+          <test-case name="FizzBuzzTest.FizzBuzzTest" executed="True" result="Success" success="True" time="0.012" asserts="100" />
         </results>
       </test-suite>
     </results>
