@@ -1,8 +1,29 @@
-# fizzbuzz Perl
+### FizzBuzz
 
-Write a program for fizzbuzz [Fizzbuzz.pm](app/Fizzbuzz.pm).
+Write a function to implement FizzBuzz Logic.
 
-Given argument is to determine function fizzbuzz whether it is "Fizz" or "Buzz" or "FizzBuzz" or number (app/Fizzbuzz.pm).
-Return value: "Fizz" or "Buzz" or "FizzBuzz" or number.
+FizzBuzz Logic,
+If the number is
+- Divisible by ` 3 `  replace it with ` "Fizz" `
+- Divisible by ` 5 `  replace it with ` "Buzz" `
+- Divisible by ` 3 and 5 ` replace it with ` "FizzBuzz" `
+- Not Divisible by ` 3, 5 or 15 ` do not change
 
-Test: t/fizzbuzztest.t 
+### Example
+
+<table>
+  <tr>
+    <td><b>Input</b></td>
+    <td>1</td>
+    <td>3</td>
+    <td>5</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td><b>Output</b></td>
+    <td>1</td>
+    <td>Fizz</td>
+    <td>Buzz</td>
+    <td>FizzBuzz</td>
+  </tr>
+</table>
