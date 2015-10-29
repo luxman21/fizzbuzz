@@ -1,0 +1,12 @@
+{
+  "editable": [
+    "q3.md",
+    "src/main/groovy/*"
+  ],
+  "excludes": [
+    ".gitignore",
+    "challenge.json",
+    "Test1Spec.groovy"
+  ],
+  "test": "gradle test"
+}
