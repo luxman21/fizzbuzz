@@ -13,7 +13,7 @@ class TestFizzBuzzSpec extends FlatSpec with Matchers {
         case i if i % 3  == 0 => data(i) = "Fizz"
         case _                => data(i) = i.toString
       }
-      assert(fizzBuzz(i) == data(i))     
+      assert(fizzBuzz(i) === data(i))     
     }
   } 
 }
